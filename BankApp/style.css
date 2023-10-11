@@ -1,0 +1,30 @@
+body {
+    all: unset;
+    align-items: center;
+    text-align: center;
+}
+.card {
+    border-radius: 10px;
+  border: 1px solid #009E60;
+    margin: auto;
+    max-width: 400px;
+}
+.options {
+ padding: 40px;   
+}
+button {
+    transition: .5s;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+#back {
+    margin-left: 700px;
+}
